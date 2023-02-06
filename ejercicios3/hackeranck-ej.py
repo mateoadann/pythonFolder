@@ -9,3 +9,16 @@ elif n%2 != 0:
     print('Weird')
 else:
     print(f'mal')
+    
+def backward_string(val: str) -> str:
+    # your code here
+    # for i in range(len(val)):
+    #     result =[]
+    #     result.append([val(i)])
+    #     print(result)
+    result = slice(0,val,1)
+    return f'nice \n', result
+
+
+print(backward_string('val'))
+a = [1, 2, 3]
