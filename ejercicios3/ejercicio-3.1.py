@@ -139,18 +139,16 @@ def tipo_impositivo(renta_anual):
 #------------------------------------------------------------------------------------
 
 
+#Escribir un programa que pregunte al usuario su edad y 
+# muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
+
+def mostrar_años_cumplidos():
+    edad = int(input('Ingrese su edad:  '))
+    for i in range (1,edad+1):
+        print(i)
 
 
-
-
-
-
-
-
-
-
-
-
+#print(mostrar_años_cumplidos())
 
 
 
